@@ -4,31 +4,34 @@
         <meta name="Viewport" content="width=device-width, initial-scale=1.0">
 	<title>JonathanM Contact</title>
     <style>
-body{
-background-color: #000000;
-text-align: center;
-color: #ffffff;
-font-family: 'Times New Roman', Times, serif;
-}
-.NaveBar {
-  overflow: hidden;
-  background-color: #7e7e7e;
-  margin: auto;
- 
-}
-.NaveBar a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 90px;
-  text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: auto;
-}
-.NaveBar a:hover {
-  background-color: #04d9ff;
-  color: black;
-}
+    body
+    {
+        background-color: #000000;
+        text-align: center;
+        color: #ffffff;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .NaveBar 
+    {
+        overflow: hidden;
+        background-color: #7e7e7e;
+        margin: auto;
+    }
+    .NaveBar a 
+    {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 90px;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: auto;
+    }
+    .NaveBar a:hover 
+    {
+        background-color: #04d9ff;
+        color: black;
+    }
 .NaveBar .Center{
   display: flex;
             justify-content: center;
@@ -45,21 +48,30 @@ font-family: 'Times New Roman', Times, serif;
                 align-items: center;
             }
         }
-.cube{
-    padding: 100px 100px;
-    padding: 30px 20px 30px 60px;
-    background-color: #7e7e7e;
-    text-align: center;
-    margin: inherit;
+    .cube
+    {
+        
+        padding: 100px 10px 100px 10px;
+        background-color: #7e7e7e;
+        text-align: center;
+        margin: inherit;
+    }
+
+    .blog_photo
+    {
+        max-width: 20%;
+    }
+
+    h1.Blog
+    {
+	    font-size :80px;
+    }
+.blog_photo{
+float: left;
 }
 
-.blog_photo
-{
-    max-width: 20%;
-}
-
-h1.Blog{
-	font-size :80px;
+.rederect .blog_update{
+    float: right;
 }
     </style>
     </head>
@@ -75,10 +87,11 @@ h1.Blog{
         </div>
         <hr>
         <br>
-        <div class="cube">
-        <img class="blog_photo" src="Coding.jpg" alt="computer with HTML">
+        <div class="cube"><div class="inner_cubes">
+            <img class="blog_photo" src="Coding.jpg" alt="computer with HTML">
             <h2><a class="rederect" href="Blogpost.html">Good The Bad and the code</a></h2>
-        <p class="blog_update"> The good the bad and the ugly parts of coding a wepsite and setting it up to be seen by the public</p>
+            <p class="blog_update"> The good the bad and the ugly parts of coding a wepsite and setting it up a website to be seen by the public</p>
+            </div>
         </div>
     </body>
 </html>
