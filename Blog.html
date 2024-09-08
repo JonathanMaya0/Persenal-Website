@@ -50,29 +50,36 @@
         }
     .cube
     {
+        display: flex;
+            align-items: center;
+            justify-content: space-between; 
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto; 
+			background-color: #4c4c57;
         
-        padding: 150px 150px 150px 150px;
-        background-color: #7e7e7e;
-        text-align: center;
-        margin: inherit;
     }
+    .inner_cude{
+        flex: 1; 
+        padding: 40px 20px 40px 20px;
 
+    }
+    .rederect{ 
+        flex-direction: 1;
+    }
     .blog_photo
     {
-        max-width: 20%;
+        flex-shrink: 0; 
+        text-align: right;
+        max-width: 400px; 
+            height: auto;
+            border-radius: 5px;
     }
 
     h1.Blog
     {
 	    font-size :80px;
     }
-.blog_photo{
-float: left;
-}
-
-.rederect .blog_update{
-    float: right;
-}
     </style>
     </head>
     <body>
@@ -88,11 +95,11 @@ float: left;
         <hr>
         <br>
         <div class="cube">
-            <div class="inner_cubes">
             <img class="blog_photo" src="Coding.jpg" alt="computer with HTML">
+            <div class="inside_cube">
             <h2><a class="rederect" href="Blogpost.html">Good The Bad and the code</a></h2>
             <p class="blog_update"> The good the bad and the ugly parts of coding a wepsite and setting it up a website to be seen by the public</p>
-            </div>
         </div>
+    </div>
     </body>
 </html>
